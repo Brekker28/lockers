@@ -1,0 +1,107 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    color: #2d3436;
+  }
+  
+  /* Título */
+  .display-4 {
+    color: #2d3436;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .lead {
+    color: #636e72;
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Cards */
+  .card {
+    transition: transform 0.2s;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    height: 150px; /* Altura fija para las cards */
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Íconos grandes desbordados */
+  .icon-wrapper {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+  }
+  
+  .icon-wrapper.bg-success {
+    background-color: #00b894;
+  }
+  
+  .icon-wrapper.bg-danger {
+    background-color: #d63031;
+  }
+  
+  .icon-wrapper.bg-warning {
+    background-color: #fdcb6e;
+  }
+  
+  /* Texto y botones */
+  .text-end {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .btn {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+  
+  .btn-success {
+    background-color: #00b894;
+    border-color: #00b894;
+  }
+  
+  .btn-success:hover {
+    background-color: #00a383;
+    border-color: #00a383;
+  }
+  
+  .btn-danger {
+    background-color: #d63031;
+    border-color: #d63031;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c02c2c;
+    border-color: #c02c2c;
+  }
+  
+  .btn-warning {
+    background-color: #fdcb6e;
+    border-color: #fdcb6e;
+  }
+  
+  .btn-warning:hover {
+    background-color: #f7b731;
+    border-color: #f7b731;
+  }

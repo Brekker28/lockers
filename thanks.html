@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gracias - Gestión de Casilleros</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Estilos personalizados */
+    body, html {
+      height: 100%;
+    }
+
+    .thank-you-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    .thank-you-icon {
+      font-size: 100px;
+      color: #28a745; /* Verde de Bootstrap para éxito */
+      margin-bottom: 20px;
+    }
+
+    .thank-you-message {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .warning-message {
+      font-size: 1.25rem;
+      color: #f3b600; /* Amarillo de Bootstrap para advertencia */
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .btn-home {
+      font-size: 1.25rem;
+      padding: 10px 30px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <main class="container-fluid">
+    <div class="thank-you-container">
+      <i class="bi bi-check-circle-fill thank-you-icon"></i>
+      <h1 class="thank-you-message">¡Gracias por usar nuestro servicio!</h1>
+      <div class="warning-message">
+        <i class="bi bi-exclamation-triangle-fill"></i>
+        <span>Una vez guardes tus pertenencias, asegúrate de cerrar el locker!</span>
+      </div>
+      <a href="index.html" class="btn btn-success btn-home">
+        <i class="bi bi-house-door-fill"></i> Volver al inicio
+      </a>
+    </div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

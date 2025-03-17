@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bienvenido - Gestión de Casilleros</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+  /* Estilos personalizados */
+  .input-container {
+    border: 2px solid #007bff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .input-group-text {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 75px;
+    padding: 20px;
+  }
+
+  .form-control {
+    border: none;
+    font-size: 125px;
+    text-align: center;
+    height: 200px;
+    box-shadow: none;
+  }
+
+  .form-control:focus {
+    box-shadow: none;
+    border-color: #007bff;
+  }
+
+  .btn {
+    font-size: 20px;
+    padding: 10px 20px;
+  }
+</style>
+<body>
+  <main class="container-fluid vh-100 d-flex flex-column justify-content-center align-items-center">
+    <div class="text-center d-flex justify-content-center align-items-center flex-column" style="height: 70vh;">
+      <h1 class="display-4 fw-bold mb-5">Digite una clave de 4 dígitos</h1>
+      <div class="input-group input-group-lg" style="height: 200px;">
+        <span class="input-group-text" id="inputGroup-sizing-lg" style="font-size: 75px;"><i class="bi bi-shield-lock-fill"></i></span>
+        <input type="password" class="form-control text-center" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" maxlength="4" style="font-size: 125px;max-width: 400px;">
+      </div>
+    </div>
+    <div class="d-flex justify-content-between align-items-center mt-5" style="width: 95vw;" >
+      <button class="btn btn-lg btn-danger me-md-3" style="font-weight: bold;" onclick="window.location.href = 'index.html'">
+        <i class="bi bi-caret-left-fill"></i> Atras
+      </button>
+      
+      <button class="btn btn-lg btn-primary me-md-3" style="font-weight: bold;"  onclick="window.location.href = 'validate.html'">
+        Siguiente <i class="bi bi-caret-right-fill"></i>
+      </button>
+    </div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
